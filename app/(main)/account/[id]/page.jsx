@@ -15,7 +15,7 @@ export default async function AccountPage({ params }) {
   const { transactions, ...account } = accountData;
 
   return (
-    <div className="space-y-8 px-5">
+    <div className="px-5 pt-20 mx-10">
       <div className="flex gap-4 items-end justify-between">
         <div>
           <h1 className="text-5xl sm:text-6xl font-bold tracking-tight gradient-title capitalize">
